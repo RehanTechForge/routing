@@ -15,6 +15,7 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services.jsx";
 import Product from "./components/Product/Product.jsx";
 import Blog from "./components/Blog/Blog.jsx";
+import ProductDetails from "./components/ProductDetails/productDetails.jsx";
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path: "blog",
         element: <Blog />,
+      },
+      {
+        path: "productsdetails",
+        element: <ProductDetails />,
       },
     ],
   },
